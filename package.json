@@ -2,7 +2,6 @@
   "name": "cucumberjs-webdriverjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js"
   },
@@ -18,12 +17,8 @@
   "homepage": "https://github.com/dragan-nikolic/cucumberjs-webdriverjs#readme",
   "dependencies": {
     "assert": "^1.4.1",
-    "chromedriver": "^2.41.0",
     "cucumber": "^4.2.1",
-    "geckodriver": "^1.12.1",
     "selenium-standalone": "^6.15.1",
-    "selenium-webdriver": "^4.0.0-alpha.1",
-    "selenium-webdriver-3": "^3.5.0-2",
     "webdriverio": "^4.13.1"
   }
 }

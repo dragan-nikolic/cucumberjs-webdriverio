@@ -5,7 +5,8 @@ class Page {
   }
 
   async open(extension) {
-    await this.browser.init().url(`${this.baseUrl}/${extension}`);
+    await this.browser.init()
+    await this.browser.url(`${this.baseUrl}/${extension}`);
   }
 
   getTitle() {

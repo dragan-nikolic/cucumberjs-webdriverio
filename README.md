@@ -2,8 +2,11 @@
 
 same as cucumberjs-webdriverjs just using webdriverio instead of webdriverjs
 
-## Dependencies ##
+## how to run
 
-### webdrivers ###
-- geckodriver: Download the latest version from https://github.com/mozilla/geckodriver/releases/ and ensure it can be found on your PATH.
-- chromedriver: Download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+Open terminal and run:
+* $ ./node_modules/.bin/selenium-standalone start
+
+Then open another terminal and run:
+* $ ./run.sh
+

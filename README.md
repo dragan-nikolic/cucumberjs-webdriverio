@@ -10,3 +10,6 @@ Open terminal and run:
 Then open another terminal and run:
 * $ ./run.sh
 
+
+[Markdown help](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+

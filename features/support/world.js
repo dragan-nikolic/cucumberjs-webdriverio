@@ -17,9 +17,6 @@ function CustomWorld({attach, parameters}) {
   // create  webdriver
   const options = { desiredCapabilities: { browserName: parameters.browser } };
   this.webdriver = webdriver.remote(options);
-  console.log('-------------this.webdriver-----------------------');
-  console.log(this.webdriver);
-  console.log('------------------------------------');
 }
 
 setWorldConstructor(CustomWorld)

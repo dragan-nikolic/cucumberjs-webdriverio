@@ -1,10 +1,11 @@
 const {After, Before} = require('cucumber')
-const Page = require('../pages/page')
+const HomePage = require('../pages/home_page')
 
 Before(async function (scenario) {
   console.log(`Before: scenario ${scenario.pickle.name}`)
   console.log(this.parameters)
-  this.page = new Page(this.webdriver, 'https://www.testcookbook.com')
+  await this.webdriver.init()
+  this.homePage = new HomePage(this.webdriver, 'https://www.testcookbook.com')
 });
 
 After(async function (scenario) {
